@@ -1,6 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
+const flatten = require("lodash.flatten");
 
 const routes = require("./routes");
 
@@ -12,6 +13,18 @@ app.use(cors());
 
 Object.entries(routes).forEach(([name, route]) => {
   app.use(`/${name}`, route);
+});
+
+app.get("/", function (req, res) {
+  const allRoutes = flatten(
+    Object.keys(routes).map((route) => {
+      return routes[route].stack.map(
+        ({ route: { path, stack } }) => `${stack[0].method}: /${route}${path}`
+      );
+    })
+  );
+
+  res.send(allRoutes.join("<br />"));
 });
 
 app.listen(port, () => {
