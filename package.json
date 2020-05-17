@@ -4,8 +4,8 @@
   "main": "./src/index.js",
   "description": "Dummy api for netflix imitation project",
   "scripts": {
-    "develop": "nodemon ./server.js",
-    "start": "node ./server.js",
+    "develop": "nodemon ./src/index.js",
+    "start": "node ./src/index.js",
     "deploy": "git push heroku master"
   },
   "author": "Mindaugas Jačionis",
