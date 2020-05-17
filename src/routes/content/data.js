@@ -1,0 +1,362 @@
+module.exports = [
+  {
+    title: "Avengers: Infinity War",
+    image: "https://image.tmdb.org/t/p/original/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
+    description:
+      "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on ...",
+    id: "af1e7e-Avengers:-826b5f",
+    video: "https://www.youtube.com/embed/6ZfuNTqbHE8",
+    free: false,
+  },
+  {
+    title: "Avengers: Endgame",
+    image: "https://image.tmdb.org/t/p/original/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
+    description:
+      "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
+    id: "cbcd32-Avengers:-4f12eb",
+    video: "https://www.youtube.com/embed/TcMBFSGVi1c",
+    free: true,
+  },
+  {
+    title: "Spider-Man: Into the Spider-Verse",
+    image: "https://image.tmdb.org/t/p/original/iiZZdoQBEYBv6id8su7ImL0oCbD.jpg",
+    description:
+      'Miles Morales is juggling his life between being a high school student and being a spider-man. When Wilson "Kingpin" Fisk uses a super collider, others from across the Spider-Verse are transported to this dimension.',
+    id: "e9adfc-Spider-Man:-10ac9d",
+    video: "https://www.youtube.com/embed/g4Hbz2jLxvQ",
+    free: false,
+  },
+  {
+    title: "Bohemian Rhapsody",
+    image: "https://image.tmdb.org/t/p/original/lHu1wtNaczFPGFDTrjCSzeLPTKN.jpg",
+    description:
+      "Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – ...",
+    id: "05d347-Bohemian-d22202",
+    video: "https://www.youtube.com/embed/mP0VHJYFOAU",
+    free: false,
+  },
+  {
+    title: "Deadpool 2",
+    image: "https://image.tmdb.org/t/p/original/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
+    description:
+      "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
+    id: "d41315-Deadpool-453130",
+    video: "https://www.youtube.com/embed/D86RtevtfrA",
+    free: false,
+  },
+  {
+    title: "Mission: Impossible - Fallout",
+    image: "https://image.tmdb.org/t/p/original/AkJQpZp9WoNdj7pLYSj1L0RcMMN.jpg",
+    description:
+      "When an IMF mission ends badly, the world is faced with dire consequences. As Ethan Hunt takes it upon himself to fulfill his original briefing, the CIA begin to question his loyalty and his motives. The IMF team find themselves in a race against time, hunted by assassins while trying to prevent a global catastrophe.",
+    id: "93f95f-Mission:-573358",
+    video: "https://www.youtube.com/embed/wb49-oV0F78",
+    free: false,
+  },
+  {
+    title: "A Star Is Born",
+    image: "https://image.tmdb.org/t/p/original/wrFpXMNBRj2PBiN4Z5kix51XaIZ.jpg",
+    description:
+      "Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with...",
+    id: "639c91-A-7dfc45",
+    video: "https://www.youtube.com/embed/nSbzyEJ8X9E",
+    free: false,
+  },
+  {
+    title: "Incredibles 2",
+    image: "https://image.tmdb.org/t/p/original/9lFKBtaVIhP7E2Pk0IY1CwTKTMZ.jpg",
+    description:
+      "Elastigirl springs into action to save the day, while Mr. Incredible faces his greatest challenge yet – taking care of the problems of his three children.",
+    id: "af888b-Incredibles-0f6258",
+    video: "https://www.youtube.com/embed/i5qOzqD9Rms",
+    free: true,
+  },
+  {
+    title: "Toy Story 4",
+    image: "https://image.tmdb.org/t/p/original/w9kR8qbmQ01HwnvK4alvnQ2ca0L.jpg",
+    description:
+      'Woody has always been confident about his place in the world and that his priority is taking care of his kid, whether that\'s Andy or Bonnie. But when Bonnie adds a reluctant new toy called "Forky" to her room, a road trip adventure alongside old and new friends will show Woody how big the world can be for a toy.',
+    id: "a3c942-Toy-1aecfb",
+    video: "https://www.youtube.com/embed/wmiIUN-7qhE",
+    free: true,
+  },
+  {
+    title: "A Quiet Place",
+    image: "https://image.tmdb.org/t/p/original/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
+    description:
+      "A family is forced to live in silence while hiding from creatures that hunt by sound.",
+    id: "67ca0d-A-fbcf20",
+    video: "https://www.youtube.com/embed/WR7cc5t7tv8",
+    free: false,
+  },
+  {
+    title: "Ready Player One",
+    image: "https://image.tmdb.org/t/p/original/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+    description:
+      "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+    id: "d5b42b-Ready-c86e26",
+    video: "https://www.youtube.com/embed/cSp1dM2Vj48",
+    free: false,
+  },
+  {
+    title: "Isle of Dogs",
+    image: "https://image.tmdb.org/t/p/original/c0nUX6Q1ZB0P2t1Jo6EeFSVnOGQ.jpg",
+    description:
+      "In the future, an outbreak of canine flu leads the mayor of a Japanese city to banish all dogs to an island that's a garbage dump. The outcasts must soon embark on an epic journey when a 12-year-old boy arrives on the island to find his beloved pet.",
+    id: "5b2d72-Isle-e9cecd",
+    video: "https://www.youtube.com/embed/dt__kig8PVU",
+    free: false,
+  },
+  {
+    title: "Spider-Man: Far from Home",
+    image: "https://image.tmdb.org/t/p/original/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
+    description:
+      "Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent.",
+    id: "ee9499-Spider-Man:-14b56c",
+    video: "https://www.youtube.com/embed/Nt9L1jCKGnE",
+    free: true,
+  },
+  {
+    title: "John Wick: Chapter 3 - Parabellum",
+    image: "https://image.tmdb.org/t/p/original/ziEuG1essDuWuC5lpWUaw1uXY2O.jpg",
+    description:
+      "Super-assassin John Wick returns with a $14 million price tag on his head and an army of bounty-hunting killers on his trail. After killing a member of the shadowy international assassin’s guild, the High Table, John Wick is excommunicado, but the world’s most ruthless hit men and women await his every turn.",
+    id: "927dee-John-85d2f3",
+    video: "https://www.youtube.com/embed/M7XM597XO94",
+    free: false,
+  },
+  {
+    title: "Black Panther",
+    image: "https://image.tmdb.org/t/p/original/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
+    description:
+      "King T'Challa returns home from America to the reclusive, technologically advanced African nation of Wakanda to serve as his country's new leader. However, T'Challa soon finds that he is challenged for the throne by factions within his own country as well as without. Using powers reserved to Wakandan kings, T'Challa assumes the Black P...",
+    id: "dd8321-Black-e0e7e1",
+    video: "https://www.youtube.com/embed/xjDjIWPwcPU",
+    free: true,
+  },
+  {
+    title: "Roma",
+    image: "https://image.tmdb.org/t/p/original/dtIIyQyALk57ko5bjac7hi01YQ.jpg",
+    description:
+      "In 1970s Mexico City, two domestic workers help a mother of four while her husband is away for an extended period of time.",
+    id: "b8b261-Roma-49d09f",
+    video: "https://www.youtube.com/embed/6BS27ngZtxg",
+    free: false,
+  },
+  {
+    title: "Alita: Battle Angel",
+    image: "https://image.tmdb.org/t/p/original/xRWht48C2V8XNfzvPehyClOvDni.jpg",
+    description:
+      "When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.",
+    id: "235fdc-Alita:-571271",
+    video: "https://www.youtube.com/embed/w7pYhpJaJW8",
+    free: false,
+  },
+  {
+    title: "Ant-Man and the Wasp",
+    image: "https://image.tmdb.org/t/p/original/eivQmS3wqzqnQWILHLc4FsEfcXP.jpg",
+    description:
+      "Just when his time under house arrest is about to end, Scott Lang once again puts his freedom at risk to help Hope van Dyne and Dr. Hank Pym dive into the quantum realm and try to accomplish, against time and any chance of success, a very dangerous rescue mission.",
+    id: "8b1cc2-Ant-Man-d6b05c",
+    video: "https://www.youtube.com/embed/8_rTIAOohas",
+    free: false,
+  },
+  {
+    title: "Love, Simon",
+    image: "https://image.tmdb.org/t/p/original/5YUYg5q7QfC4IoNwNUtiwdiYKPr.jpg",
+    description:
+      "Everyone deserves a great love story. But for seventeen-year old Simon Spier it's a little more complicated: he's yet to tell his family or friends he's gay and he doesn't know the identity of the anonymous classmate he's fallen for online.",
+    id: "7b60b2-Love,-99e717",
+    video: "https://www.youtube.com/embed/ykHeGtN4m94",
+    free: true,
+  },
+  {
+    title: "First Man",
+    image: "https://image.tmdb.org/t/p/original/i91mfvFcPPlaegcbOyjGgiWfZzh.jpg",
+    description:
+      "A look at the life of the astronaut, Neil Armstrong, and the legendary space mission that led him to become the first man to walk on the Moon on July 20, 1969.",
+    id: "31b164-First-099679",
+    video: "https://www.youtube.com/embed/PSoRx87OO6k",
+    free: false,
+  },
+  {
+    title: "Shazam!",
+    image: "https://image.tmdb.org/t/p/original/xnopI5Xtky18MPhK40cZAGAOVeV.jpg",
+    description:
+      "A boy is given the ability to become an adult superhero in times of need with a single magic word.",
+    id: "b49a9f-Shazam!-23e723",
+    video: "https://www.youtube.com/embed/-oD7B7oiBtw",
+    free: false,
+  },
+  {
+    title: "Aquaman",
+    image: "https://image.tmdb.org/t/p/original/5Kg76ldv7VxeX9YlcQXiowHgdX6.jpg",
+    description:
+      "Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to th...",
+    id: "e2ee63-Aquaman-e4e6d6",
+    video: "https://www.youtube.com/embed/WDkg3h8PCVU",
+    free: false,
+  },
+  {
+    title: "How to Train Your Dragon: The Hidden World",
+    image: "https://image.tmdb.org/t/p/original/xvx4Yhf0DVH8G4LzNISpMfFBDy2.jpg",
+    description:
+      "As Hiccup fulfills his dream of creating a peaceful dragon utopia, Toothless’ discovery of an untamed, elusive mate draws the Night Fury away. When danger mounts at home and Hiccup’s reign as village chief is tested, both dragon and rider must make impossible decisions to save their kind.",
+    id: "74fde3-How-40d07a",
+    video: "https://www.youtube.com/embed/SkcucKDrbOI",
+    free: false,
+  },
+  {
+    title: "Captain Marvel",
+    image: "https://image.tmdb.org/t/p/original/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
+    description:
+      "The story follows Carol Danvers as she becomes one of the universe’s most powerful heroes when Earth is caught in the middle of a galactic war between two alien races. Set in the 1990s, Captain Marvel is an all-new adventure from a previously unseen period in the history of the Marvel Cinematic Universe.",
+    id: "39132b-Captain-7c0509",
+    video: "https://www.youtube.com/embed/Z1BCujX3pw8",
+    free: false,
+  },
+  {
+    title: "Aladdin",
+    image: "https://image.tmdb.org/t/p/original/3iYQTLGoy7QnjcUYRJy4YrAgGvp.jpg",
+    description:
+      "A kindhearted street urchin named Aladdin embarks on a magical adventure after finding a lamp that releases a wisecracking genie while a power-hungry Grand Vizier vies for the same lamp that has the power to make their deepest wishes come true.",
+    id: "971d3a-Aladdin-8d2d9a",
+    video: "https://www.youtube.com/embed/JcMtWwiyzpU",
+    free: false,
+  },
+  {
+    title: "Annihilation",
+    image: "https://image.tmdb.org/t/p/original/d3qcpfNwbAMCNqWDHzPQsUYiUgS.jpg",
+    description:
+      "A biologist signs up for a dangerous, secret expedition into a mysterious zone where the laws of nature don't apply.",
+    id: "135d4d-Annihilation-a0bbd6",
+    video: "https://www.youtube.com/embed/89OP78l9oF0",
+    free: false,
+  },
+  {
+    title: "Solo: A Star Wars Story",
+    image: "https://image.tmdb.org/t/p/original/3IGbjc5ZC5yxim5W0sFING2kdcz.jpg",
+    description:
+      "Through a series of daring escapades deep within a dark and dangerous criminal underworld, Han Solo meets his mighty future copilot Chewbacca and encounters the notorious gambler Lando Calrissian.",
+    id: "118ec2-Solo:-7746fd",
+    video: "https://www.youtube.com/embed/L4v8JCFgLPE",
+    free: true,
+  },
+  {
+    title: "The Lion King",
+    image: "https://image.tmdb.org/t/p/original/2bXbqYdUdNVa8VIWXVfclP2ICtT.jpg",
+    description:
+      "Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother—and former heir to the throne—has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With...",
+    id: "76f506-The-d4a55d",
+    video: "https://www.youtube.com/embed/7TavVZMewpY",
+    free: false,
+  },
+  {
+    title: "Ralph Breaks the Internet",
+    image: "https://image.tmdb.org/t/p/original/qEnH5meR381iMpmCumAIMswcQw2.jpg",
+    description:
+      'Video game bad guy Ralph and fellow misfit Vanellope von Schweetz must risk it all by traveling to the World Wide Web in search of a replacement part to save Vanellope\'s video game, "Sugar Rush." In way over their heads, Ralph and Vanellope rely on the citizens of the internet -- the netizens -- to help navigate their way, including an...',
+    id: "96c018-Ralph-b28bd6",
+    video: "https://www.youtube.com/embed/_BcYBFC6zfY",
+    free: true,
+  },
+  {
+    title: "Star Wars: The Rise of Skywalker",
+    image: "https://image.tmdb.org/t/p/original/db32LaOibwEliAmSL2jjDF6oDdj.jpg",
+    description:
+      "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins.",
+    id: "f142bf-Star-4e6445",
+    video: "https://www.youtube.com/embed/8Qn_spdM5Zg",
+    free: false,
+  },
+  {
+    title: "Venom",
+    image: "https://image.tmdb.org/t/p/original/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+    description:
+      "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+    id: "9b6256-Venom-31aaaf",
+    video: "https://www.youtube.com/embed/u9Mv98Gr5pY",
+    free: false,
+  },
+  {
+    title: "Frozen II",
+    image: "https://image.tmdb.org/t/p/original/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg",
+    description:
+      "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom.",
+    id: "0c2919-Frozen-fc09b9",
+    video: "https://www.youtube.com/embed/bwzLiQZDw2I",
+    free: true,
+  },
+  {
+    title: "Glass",
+    image: "https://image.tmdb.org/t/p/original/svIDTNUoajS8dLEo7EosxvyAsgJ.jpg",
+    description:
+      "In a series of escalating encounters, former security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities. Meanwhile, the shadowy presence of Elijah Price emerges as an orchestrator who holds secrets critical to both men.",
+    id: "aa1802-Glass-8f3254",
+    video: "https://www.youtube.com/embed/95ghQs5AmNk",
+    free: false,
+  },
+  {
+    title: "Christopher Robin",
+    image: "https://image.tmdb.org/t/p/original/fQYgljzKgkeGEukezaJsMWp7oq1.jpg",
+    description:
+      "Christopher Robin, the boy who had countless adventures in the Hundred Acre Wood, has grown up and lost his way. Now it’s up to his spirited and loveable stuffed animals, Winnie The Pooh, Tigger, Piglet, and the rest of the gang, to rekindle their friendship and remind him of endless days of childlike wonder and make-believe, when doin...",
+    id: "39dd22-Christopher-6050d3",
+    video: "https://www.youtube.com/embed/0URpDxIjZrQ",
+    free: true,
+  },
+  {
+    title: "Bumblebee",
+    image: "https://image.tmdb.org/t/p/original/fw02ONlDhrYjTSZV8XO6hhU3ds3.jpg",
+    description:
+      "On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken.  When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.",
+    id: "ea07d7-Bumblebee-639ef1",
+    video: "https://www.youtube.com/embed/fAIX12F6958",
+    free: false,
+  },
+  {
+    title: "Fantastic Beasts: The Crimes of Grindelwald",
+    image: "https://image.tmdb.org/t/p/original/fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg",
+    description:
+      "Gellert Grindelwald has escaped imprisonment and has begun gathering followers to his cause—elevating wizards above all non-magical beings. The only one capable of putting a stop to him is the wizard he once called his closest friend, Albus Dumbledore. However, Dumbledore will need to seek help from the wizard who had thwarted Grindelw...",
+    id: "b89946-Fantastic-ee1ad4",
+    video: "https://www.youtube.com/embed/ViuDsy7yb8M",
+    free: false,
+  },
+  {
+    title: "A Simple Favor",
+    image: "https://image.tmdb.org/t/p/original/aIYsjQM0piKc0ibPBCTWv3sqshj.jpg",
+    description:
+      "Stephanie, a dedicated mother and popular vlogger, befriends Emily, a mysterious upper-class woman whose son Nicky attends the same school as Miles, Stephanie's son. When Emily asks her to pick Nicky up from school and then disappears, Stephanie undertakes an investigation that will dive deep into Emily's cloudy past.",
+    id: "bd8eee-A-e1e428",
+    video: "https://www.youtube.com/embed/rAqMlh0b2HU",
+    free: false,
+  },
+  {
+    title: "Cold War",
+    image: "https://image.tmdb.org/t/p/original/6rbS8oPIgUMhQgIX8oGVTtlNgLR.jpg",
+    description:
+      "A man and a woman meet in the ruins of post-war Poland. With vastly different backgrounds and temperaments, they are fatally mismatched and yet drawn to each other.",
+    id: "4e3df8-Cold-90f2b9",
+    video: "https://www.youtube.com/embed/8ImvkXgGVWw",
+    free: false,
+  },
+  {
+    title: "Red Sparrow",
+    image: "https://image.tmdb.org/t/p/original/vLCogyfQGxVLDC1gqUdNAIkc29L.jpg",
+    description:
+      "Prima ballerina, Dominika Egorova faces a bleak and uncertain future after she suffers an injury that ends her career. She soon turns to Sparrow School, a secret intelligence service that trains exceptional young people to use their minds and bodies as weapons. Dominika emerges as the most dangerous Sparrow after completing the sadisti...",
+    id: "78c9a3-Red-581a3f",
+    video: "https://www.youtube.com/embed/PmUL6wMpMWw",
+    free: false,
+  },
+  {
+    title: "The Equalizer 2",
+    image: "https://image.tmdb.org/t/p/original/cQvc9N6JiMVKqol3wcYrGshsIdZ.jpg",
+    description:
+      "Robert McCall, who serves an unflinching justice for the exploited and oppressed, embarks on a relentless, globe-trotting quest for vengeance when a long-time girl friend is murdered.",
+    id: "3dfe54-The-69e8a0",
+    video: "https://www.youtube.com/embed/HyNJ3UrGk_I",
+    free: false,
+  },
+];
