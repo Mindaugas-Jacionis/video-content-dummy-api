@@ -15,9 +15,10 @@ content.get("/free-items", function (req, res) {
 
 content.get("/items", function (req, res) {
   const { authorization } = req.headers;
-  const json = auth.tokenIsValid(authorization) ? data : getFreeContent();
+  const isAuthenticated = auth.tokenIsValid(authorization);
+  const json = isAuthenticated ? data : getFreeContent();
 
-  res.json(json);
+  res.status(isAuthenticated ? 200 : 401).json(json);
 });
 
 content.get("/items/:itemId", function (req, res) {
