@@ -1,6 +1,8 @@
 const express = require("express");
 const { v4 } = require("uuid");
 
+const sales = require("../sales");
+
 const auth = express.Router();
 
 const CREDENTIALS = {
@@ -45,24 +47,37 @@ auth.post("/login", function (req, res) {
 });
 
 auth.post("/signup", function (req, res) {
-  const { username, password } = req.body;
+  const { username, password, planId } = req.body;
 
-  if (!username || !password) {
-    if (!username && password) {
-      res.status(400).json({ message: "Username missing" });
-    }
+  if (!username || !password || !planId) {
+    let errors = [
+      !username && "Username missing",
+      !password && "Password missing",
+      !planId && "Plan is missing",
+    ].filter(Boolean);
 
-    if (!password && username) {
-      res.status(400).json({ message: "Password missing" });
-    }
+    res.status(400).json({ errors });
   } else {
-    if (users.some(({ username: existingUsername }) => existingUsername === username)) {
-      res.status(400).json({ message: "User already exists" });
+    const userIndex = users.findIndex(
+      ({ username: existingUsername }) => existingUsername === username
+    );
+    const exist = userIndex > -1;
+
+    if (exist) {
+      users[userIndex] = { ...users[userIndex], password };
+      sales.updateSubscriptions({ userId: users[userIndex].id, planId });
     } else {
-      users.push({ id: users.length, username, password });
-      res.json({ message: "User created successfully", token: registerToken() });
-      console.log("users", users);
+      const userId = users.length;
+
+      users.push({ id: userId, username, password });
+      sales.addSubscription({ userId, planId });
     }
+
+    res.json({
+      message: exist ? "User subscriptions updated successfully" : "User created successfully",
+      token: registerToken(),
+      exist,
+    });
   }
 });
 
