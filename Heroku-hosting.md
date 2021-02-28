@@ -1,6 +1,6 @@
 ### To host this project you need Node.js server. For learning purposes Heroku free hosting can be used.
 
-\*\*All of the steps bellow explain how
+**All of the steps bellow explain how**
 
 1. Push this project as new repository to [github](https://github.com/)
 1. Create your account on [heroku](https://signup.heroku.com/)
