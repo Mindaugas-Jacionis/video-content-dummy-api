@@ -11,7 +11,7 @@
   "author": "Mindaugas Jačionis",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lodash.flatten": "^4.4.0",
     "uuid": "^8.0.0"
   },
